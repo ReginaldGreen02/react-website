@@ -1,13 +1,43 @@
-body {
+body, html {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Text color for h1, h2, and p */
+.custom-text {
+  color: #250409;
+}
+
+.custom-noto-sans {
+  font-family: 'Noto Sans Adlam Unjoined', sans-serif;
+}
+
+/* Section styles */
+.custom-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.custom-name-occupation {
+  background-color: #F5A3AF;
+}
+
+.custom-about {
+  background-color: #FCE3E7;
+}
+
+.custom-portfolio {
+  background-color: #13AA93;
+}
+
+.custom-contact {
+  background-color: #FCE3E7;
+}
+
+#dropdown-button:hover + #dropdown-content {
+  display: block;
 }
