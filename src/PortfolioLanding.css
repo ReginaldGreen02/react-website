@@ -46,16 +46,22 @@ p {
 /* Style individual sections */
 
 .name-occupation{
-  background-color: #F5A3AF;
+  background-color: #FCE3E7;
 }
 .about {
-  background-color: #FCE3E7; /* Optional: Customize background color for each section */
+  background-color: #FCE3E7; 
 }
 
 .portfolio {
-  background-color: #13AA93; /* Optional: Customize background color for each section */
+  background-color: #FCE3E7; 
 }
 
 .contact {
-  background-color: #FCE3E7; /* Optional: Customize background color for each section */
+  background-color: #FCE3E7; 
+}
+
+.text-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
 }
