@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import hamburgerImage from './images/Hamburger_vector.svg'; 
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+
+
+
 
 function Dropdown() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -23,27 +27,57 @@ function Dropdown() {
           id="dropdown-content"
         >
           <ul>
-            <li>
-              <a href="#name-occupation" className="block px-4 py-2">
-                Name and Occupation
-              </a>
-            </li>
-            <li>
-              <a href="#about" className="block px-4 py-2">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#projects" className="block px-4 py-2">
-                Portfolio
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="block px-4 py-2">
-                Contact Me
-              </a>
-            </li>
-          </ul>
+  <li>
+    <Link
+      activeClass="active"
+      to="name-occupation"
+      spy={true}
+      smooth={true}
+      duration={500}
+      className="block px-4 py-2"
+    >
+      Name and Occupation
+    </Link>
+  </li>
+  <li>
+    <Link
+      activeClass="active"
+      to="about"
+      spy={true}
+      smooth={true}
+      duration={500}
+      className="block px-4 py-2"
+    >
+      About
+    </Link>
+  </li>
+  <li>
+    <Link
+      activeClass="active"
+      to="projects"
+      spy={true}
+      smooth={true}
+      duration={500}
+      className="block px-4 py-2"
+    >
+      Projects
+    </Link>
+  </li>
+  <li>
+    <Link
+      activeClass="active"
+      to="contact"
+      spy={true}
+      smooth={true}
+      duration={500}
+      className="block px-4 py-2"
+    >
+      Contact Me
+    </Link>
+  </li>
+ 
+</ul>
+
         </div>
       )}
     </div>
