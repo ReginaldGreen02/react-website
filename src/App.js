@@ -6,10 +6,10 @@ import PortfolioLanding from './PortfolioLanding';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <header className="p-4 bg-gray-200">
         <nav className="container mx-auto flex justify-between items-center">
-          <h1 className="text-xl font-bold">Your Website</h1>
+          <h1 className="text-xl font-bold"> </h1>
           <Dropdown />
         </nav>
       </header>

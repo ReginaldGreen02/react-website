@@ -7,7 +7,7 @@ body, html {
   padding: 0;
 }
 
-/* Text color for h1, h2, and p */
+
 .custom-text {
   color: #250409;
 }
@@ -23,7 +23,8 @@ body, html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding: 40vh;
+
 }
 
 .custom-name-occupation {
@@ -34,13 +35,27 @@ body, html {
   background-color: #FCE3E7;
 }
 
-.custom-portfolio {
+.custom-projects {
   background-color: #FCE3E7;
 }
 
 .custom-contact {
   background-color: #FCE3E7;
 }
-#dropdown-button:hover + #dropdown-content {
-  display: block;
+
+.dropdown {
+  background-color: #FCE3E7;
+  
+}
+
+.wrapper {
+  width: fit-content;
+  max-width: 100vh;
+  height: fit-content;
+  border: 1vh solid rgb(134, 133, 133);
+  margin-top: 10vh;
+  margin-left: 10vh;
+  background: white;
+  text-align: center; 
+  padding: 2vh;
 }
