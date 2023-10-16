@@ -21,10 +21,10 @@ function PortfolioLanding() {
           <h2 className="text-4x1 font-bold">Your Name</h2>
           <p className="text-xl">Frontend Developer</p>
         </div>
-        <div className="clear-both">
-          <img src={githubImage} alt="Github" className="float-left" />
-          <img src={linkedInImage} alt="LinkedIn" className="float-left" />
-          <img src={resumeImage} alt="Resume" className="float-left" />
+        <div className='clear-both'>
+          <img src={githubImage} alt="Github" className='float-left' />
+          <img src={linkedInImage} alt="LinkedIn" className='float-left' />
+          <img src={resumeImage} alt="Resume"   className='float-left'/>
         </div>
       </section>
 
