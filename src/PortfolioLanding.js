@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react';
 import ContactForm from './ContactForm';
-import githubImage from './images/Github_vector.svg';
-import linkedInImage from './images/LinkedIn_vector.svg'; 
-import resumeImage from './images/Resume_vector.svg'
+import githubImage from './images/Github_wShadow.svg';
+import linkedInImage from './images/LinkedIn_wShadow.svg'; 
+import resumeImage from './images/Resume_wShadows.svg'
+
+
 
 function PortfolioLanding() {
   useEffect(() => {
@@ -22,9 +24,15 @@ function PortfolioLanding() {
           <p className="text-xl">Frontend Developer</p>
         </div>
         <div className='clear-both'>
-          <img src={githubImage} alt="Github" className='float-left' />
-          <img src={linkedInImage} alt="LinkedIn" className='float-left' />
-          <img src={resumeImage} alt="Resume"   className='float-left'/>
+          <a href={'https://github.com/ReginaldGreen02'} target="_blank" rel="noopener noreferrer">
+            <img src={githubImage} alt="Github"  className='float-left icon-shadows'/>
+          </a>
+          <a href={'https://www.linkedin.com/in/reginaldgreen1102'} target="_blank" rel="noopener noreferrer">
+            <img src={linkedInImage} alt="LinkedIn"  className='float-left icon-shadows'/>
+          </a>
+          <a href={'https://drive.google.com/file/d/1s97os03L9rRh96UcmTfcJda8erN3LhNa/view?usp=sharing'} target="_blank" rel="noopener noreferrer">
+            <img src={resumeImage} alt="Resume"  className='float-left icon-shadows' />
+          </a>
         </div>
       </section>
 

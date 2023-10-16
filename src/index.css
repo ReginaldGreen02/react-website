@@ -71,18 +71,20 @@ body, html {
 
 
 }
+
 .wrapper-about-me{
   
 }
+
 .wrapper-projects{
 
 }
 
-.blurred {
-  backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
-  transition: backdrop-filter 0.3s ease; /* Add a smooth transition effect */
+.wrapper-project-items{
+
 }
 
+/* Icon Styling*/
 .clear-both::after {
   content: "";
   display: table;
@@ -97,6 +99,21 @@ body, html {
   justify-content: center;
   align-items: center;
 }
+
+.icon-shadows {
+  
+
+
+
+}
+
+
+.blurred {
+  backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
+  transition: backdrop-filter 0.3s ease; /* Add a smooth transition effect */
+}
+
+
 
 .sticky-nav {
   position: sticky;
