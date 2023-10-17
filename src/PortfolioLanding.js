@@ -3,7 +3,7 @@ import ContactForm from './ContactForm';
 import githubImage from './images/Github_wShadow.svg';
 import linkedInImage from './images/LinkedIn_wShadow.svg'; 
 import resumeImage from './images/Resume_wShadows.svg'
-
+import projectImage from './images/ProjectPlaceHolder.svg'
 
 
 function PortfolioLanding() {
@@ -18,6 +18,7 @@ function PortfolioLanding() {
 
   return (
     <div className="portfolio-landing">
+   
       <section id="name-occupation"className="custom-section custom-projects">
         <div className="border p-4 rounded-lg wrapper-contact-name">
           <h2 className="text-4x1 font-bold">Your Name</h2>
@@ -35,7 +36,7 @@ function PortfolioLanding() {
           </a>
         </div>
       </section>
-
+        
       <section  id = "about" className="custom-section custom-about">
         <div  className="border p-4 rounded-lg wrapper-about-me">
           <h2 className="text-2xl font-semibold mb-4">About Me</h2>
@@ -45,16 +46,26 @@ function PortfolioLanding() {
           </p>
         </div>
       </section>
-
+    
       <section  id="projects" className="custom-section custom-projects">
         <div  className="border p-4 rounded-lg wrapper-projects">
           <h2 className="text-2xl font-semibold mb-4">Projects</h2>
-          <div id = "project-cards">
-            <div class></div>
+          <div className='wrapper'>
+            <div id = "project-cards">
+            <img src = {projectImage}></img>
+            </div>
+            <div class="project-info">
+            <h4>Project 3</h4>
+                <p>
+                  Here you can describe what the project was about, the tech you
+                  used, and what you learned
+                </p>
+                <a href="https://github.com/ReginaldGreen02/ScareBears" target="_blank" rel="noopener noreferrer">Github</a>
+            </div>
           </div>
         </div>
       </section>
-
+    
       <section id="contact" className="custom-section custom-contact">
       <ContactForm />
       </section>
