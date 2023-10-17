@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/react-website/static/css/main.c28785dc.css",
-    "main.js": "/react-website/static/js/main.df458940.js",
+    "main.css": "/react-website/static/css/main.f5681e65.css",
+    "main.js": "/react-website/static/js/main.ae9aa034.js",
     "static/js/787.28cb0dcd.chunk.js": "/react-website/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Github_wShadow.svg": "/react-website/static/media/Github_wShadow.4a0a3fbcf5547dafed72195d954a4f34.svg",
+    "static/media/LinkedIn_wShadow.svg": "/react-website/static/media/LinkedIn_wShadow.b281639c5d86329cb70ef63cea3a85b5.svg",
+    "static/media/Resume_wShadows.svg": "/react-website/static/media/Resume_wShadows.48ca85e4bef5575a02e583d2c0741ba8.svg",
+    "static/media/Hamburger_vector.svg": "/react-website/static/media/Hamburger_vector.2b694de24edccb8b2a6fa75aadf09cd4.svg",
+    "static/media/ProjectPlaceHolder.svg": "/react-website/static/media/ProjectPlaceHolder.a2144a6bbefaf28bb8a8aee9927eeb48.svg",
     "index.html": "/react-website/index.html",
-    "main.c28785dc.css.map": "/react-website/static/css/main.c28785dc.css.map",
-    "main.df458940.js.map": "/react-website/static/js/main.df458940.js.map",
+    "main.f5681e65.css.map": "/react-website/static/css/main.f5681e65.css.map",
+    "main.ae9aa034.js.map": "/react-website/static/js/main.ae9aa034.js.map",
     "787.28cb0dcd.chunk.js.map": "/react-website/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c28785dc.css",
-    "static/js/main.df458940.js"
+    "static/css/main.f5681e65.css",
+    "static/js/main.ae9aa034.js"
   ]
 }
